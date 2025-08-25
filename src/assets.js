@@ -72,6 +72,10 @@ import PLKCover from './../public/assets/plk_cover.png';
 import TLLogo from './../public/assets/tl_logo.png';
 import TLCover from './../public/assets/tl_cover.png';
 
+import upIcon from './../public/assets/up.png';
+
+export const upicon = upIcon;
+
 export const businesses = [
     {
         bname: 'Premify LK',
@@ -84,6 +88,7 @@ export const businesses = [
         fbpage: '',
         weblink: '',
         cover: PLKCover,
+        linkIcon: upIcon,
     },
 
     {
@@ -97,7 +102,37 @@ export const businesses = [
         fbpage: '',
         weblink: '',
         cover: TLCover,
+        linkIcon: upIcon,
     },
 
 ]
 
+export const filterBtns = ['All Skills', 'Web Dev', 'Software Dev', 'UI/UX', 'Graphic Design'];
+
+import Python from './../public/assets/hr_python.png';
+import Javascript from './../public/assets/hr_js.png';
+import CICD from './../public/assets/su_cicd.png';
+import Arduino from './../public/assets/ii_arduino.png';
+import Illustrator from './../public/assets/clk_illustrator.png';
+
+export const certificates = [
+    {id:0, image: Python, text: 'HackerRank Certified Python Programmer', web: 'hackerrank.com'},
+    {id:1, image: Javascript, text: 'HackerRank Certified JavaScript Programmer', web: 'hackerrank.com'},
+    {id:2, image: CICD, text: 'Certificate in CI/CD with hands-on experience', web: 'simplelearn.com'},
+    {id:3, image: Arduino, text: 'Certificate in Arduino with hands-on experience', web: 'ii.lk'},
+    {id:4, image: Illustrator, text: 'Certificate in Adobe Illustrator with hands-on experience', web: 'courses.lk'},
+];
+
+export const projects = [
+    // Project 1
+    {id:1, img: './../public/assets/weatherify.png', name: 'Weatherify', desc: 'Weatherify is a simple weather application built using HTML, CSS, and JavaScript. It utilizes the Tailwind CSS framework for styling and fetches weather data from the OpenWeather API.', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/tailwind.png', './../public/assets/weather_api.png',]},
+
+    // Project 2
+    {id:2, img: './../public/assets/cc_gen.png', name: 'Credit Card Generator', desc: 'This simple web application can generate fake, virtual Visa and Master, Debit and Credit cards using you details instantly for you.', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+
+    // Project 3
+    {id:3, img: './../public/assets/occ.png', name: 'Online Class Connector', desc: 'If you have classes with same zoom links, You don’t need find those links on WhatsApp again & again. Instead of that  you can save your class link with class name in this tool connect it easily.', githubLink: '#', icons: ['./../public/assets/python.png',]},
+
+    // Project 4
+    {id:4, img: './../public/assets/tl_pms.png', name: 'Project Management System', desc: 'Efficient, innovative project management system and website for Tefusion Labs. ️Collaborate, track tasks, optimize resources, and boost productivity!', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+];

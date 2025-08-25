@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import SocialBar from './components/SocialBar'
 import Content from './components/Content'
+import BGCircle from './components/BGCircle'
 
 const App = () => {
   return (

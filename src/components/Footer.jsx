@@ -4,6 +4,7 @@ import {socialIconsLight} from './../assets'
 import {footerGroups} from './../assets'
 import { NavLink } from 'react-router-dom'
 import PrimaryBtn from './PrimaryBtn'
+import BGCircle from './BGCircle'
 
 const Footer = () => {
     return(
