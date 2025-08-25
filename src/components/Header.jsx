@@ -15,7 +15,7 @@ const Header = () => {
                 <BGCircle side='left' className='-z-10'/>
 
                 {/* Main navigation bar */}
-                <nav className='flex justify-between items-center bg-gradient-to-r from-[#444444]/10 to-[#AAAAAA]/10 rounded-[50px] p-2.5 border border-[#FFFFFF]/10 shadow shadow-black my-8'>
+                <nav className='flex justify-between items-center bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[50px] p-2.5 border border-stroke shadow shadow-black my-8'>
 
                     <Logo color="#4071C5"/>
 

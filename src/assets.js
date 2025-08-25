@@ -56,3 +56,48 @@ export const footerGroups = [
     }
 ];
 
+export const interests = [
+    
+    {id: 1, name: 'Web Design & Development'},
+    {id: 2, name: 'Software Development'},
+    {id: 3, name: 'UIUX Design'},
+    {id: 4, name: 'Graphic Design & Video Editing'},
+    {id: 5, name: 'Robotics'},
+    {id: 6, name: 'Electronics'},
+]
+
+import PLKLogo from './../public/assets/plk_logo.png';
+import PLKCover from './../public/assets/plk_cover.png';
+
+import TLLogo from './../public/assets/tl_logo.png';
+import TLCover from './../public/assets/tl_cover.png';
+
+export const businesses = [
+    {
+        bname: 'Premify LK',
+        logo: PLKLogo,
+        designations: ['Founder & Owner', 'Creative Director', 'Marketing Manager', 'Customer Relationship & Social Media Manager'],
+        about: 'A premium Software Subscriptions Selling Business.',
+        date: 'Since 04 July 2024',
+        desc: 'Premium tools for students, freelancers, & small businesses. Access ChatGPT, Grammarly, Adobe, Canva, and more at low prices. Monthly, 3/6 months, yearly plans.',
+        email: 'Premifylk@gmail.com',
+        fbpage: '',
+        weblink: '',
+        cover: PLKCover,
+    },
+
+    {
+        bname: 'Tefusion Labs',
+        logo: TLLogo,
+        designations: ['Founder & CEO', 'TechLead', 'Software Engineer', 'UI/UX Designer', 'Graphic Designer', 'Marketing Manager', 'Customer Relationship & Social Media Manager'],
+        about: 'A Software Development & Digital Creation Startup.',
+        date: 'Since 11 June 2024',
+        desc: 'Tefusion Labs is a digital creation startup that provides services such as Web Design, Web Development, Software Development, UI/UX Design, Graphic Design.',
+        email: 'tefusionlabs@gmail.com',
+        fbpage: '',
+        weblink: '',
+        cover: TLCover,
+    },
+
+]
+

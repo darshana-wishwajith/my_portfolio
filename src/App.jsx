@@ -13,7 +13,7 @@ const App = () => {
       {/* Main container */}
       <div className="mx-[200px]">
         <Header/>
-          <Content />
+        <Content />
         <Footer />
       </div>
     </>

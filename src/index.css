@@ -3,11 +3,12 @@
 @theme{
     --font-sans : "Inter";
 
-    --color-priamry: #4071C5;
+    --color-priamry: #4071C5; /* text gradient 1. Use 25% opacity for 2nd color */
     --color-font-light: #C8C8C8;
-    --color-gradient-left: rgba(68, 68, 68, 0.1);
-    --color-gradient-right: rgba(170, 170, 170, 0.1);
+    --color-gradientbg-left: rgba(68, 68, 68, 0.1);    /* bg gradient 1 */
+    --color-gradientbg-right: rgba(170, 170, 170, 0.1); /* bg gradient  2*/
     --color-stroke: rgba(255, 255, 255, 0.1);
+    --color-interest-bg: rgba(255, 255, 255, 0.05); /*intrest card bg*/
     --color-cardbg-gradient-left:  rgba(0, 3, 25, 0.1);
     --color-cardbg-gradient-right:  rgba(64, 113, 197, 0.1);
     --color-sectionbg: rgba(217, 217, 217, 0.05);
@@ -17,5 +18,5 @@
 
 
 *{
-    @apply text-[15px];
+    @apply text-[13px];
 }

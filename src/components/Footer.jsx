@@ -8,7 +8,7 @@ import PrimaryBtn from './PrimaryBtn'
 const Footer = () => {
     return(
         <>
-            <footer className='bg-[#4071C5]/10 rounded-[10px]'>
+            <footer className='bg-[#4071C5]/10 rounded-[10px] my-10'>
                 {/* First row */}
                 <div className='px-[100px] flex justify-between items-center py-3'>
                     <div>
