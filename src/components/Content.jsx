@@ -16,6 +16,8 @@ import {emojies} from './../assets'
 import EduTimeline from "./EduTimeline"
 import { education } from "../../src/assets";
 import SkillsBoard from './SkillsBoard'
+import TypeWriter from './Typewriter'
+import { motion } from "framer-motion";
 
 const Content = () => {
 
@@ -34,9 +36,9 @@ const Content = () => {
                 </div>
 
                 <div className="col-span-2">
-                    <h4 className="!text-[20px]">Hi 👋 I’m <span className="font-semibold !text-[20px]">Darshana Wishwajith</span></h4>
+                    <h4 className="!text-[20px] flex gap-4">Hi <img src="./../public/assets/wave.gif" className="w-10 h-10"/> I’m <span className="font-semibold !text-[20px]">Darshana Wishwajith</span></h4>
 
-                    <GradientHeading heading='Full-Stack Software Engineer' type='h1'/>
+                    <TypeWriter />
 
                     <h4 className="!text-[20px] py-3">Based on Sri Lanka</h4>
 
@@ -144,12 +146,11 @@ const Content = () => {
             <hr className="border-stroke my-10"/>  
 
             {/* Contact Section */}
-            <section id="contactMe">
+            {/* <section id="contactMe">
                 <GradientHeading type="h2" heading="Get in touch with me"/>
                 <div className="grid grid-cols-3 gap-5 mt-10">
                    <div className="col-span-3 md:col-span-2 bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[10px] border border-stroke p-10 space-y-8 relative">
 
-                    {/* <BGCircle side='left' />     */}
 
                    <div className="flex-col xl:flex-row flex gap-6">
                         <Input id='fname' name='First Name' type='text' textarea={false} placeholder='John'/>
@@ -189,7 +190,96 @@ const Content = () => {
                         </div>
                    </div>
                 </div>
+            </section> */}
+
+
+
+            {/* Contact Section */}
+            <section id="contactMe">
+            <GradientHeading type="h2" heading="Get in touch with me" />
+
+            <motion.div
+                className="grid grid-cols-3 gap-5 mt-10"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+            >
+                {/* Form */}
+                <motion.div
+                className="col-span-3 md:col-span-2 bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[10px] border border-stroke p-10 space-y-8 relative"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+                >
+                <div className="flex-col xl:flex-row flex gap-6">
+                    <Input id="fname" name="First Name" type="text" textarea={false} placeholder="John" />
+                    <Input id="lname" name="Last Name" type="text" textarea={false} placeholder="Doe" />
+                </div>
+
+                <div>
+                    <Input id="email" name="Email Address" type="email" textarea={false} placeholder="john@example.com" />
+                </div>
+
+                <div>
+                    <Input id="subject" name="Subject" type="text" textarea={false} placeholder="Test" />
+                </div>
+
+                <div>
+                    <Input id="message" name="Message" type="text" textarea={true} />
+                </div>
+
+                <div>
+                    <PrimaryBtn text="Submit" />
+                </div>
+                </motion.div>
+
+                {/* Love & Support */}
+                <motion.div
+                className="col-span-3 md:col-span-1 flex justify-center items-center"
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+                >
+                <div className="bg-sectionbg border border-stroke rounded-[10px] p-5 relative w-full">
+                    <h5 className="!text-[20px] font-semibold py-5" id="LoveSupport">
+                    Love & Support
+                    </h5>
+                    <small className="!text-[12px] text-font-light">
+                    If You like to my portfolio, you give me a hart reaction
+                    </small>
+                    <div className="flex flex-col justify-center items-center">
+                    <img src={emojies.ReadHeart} alt={emojies.ReadHeart} className="absolute w-25 top-35 left-3" />
+                    <span className="!text-[75px] font-bold text-myred">{likeCount}</span>
+                    <img src={emojies.SMFace} alt={emojies.SMFace} className="absolute w-15 right-10" />
+                    <img src={emojies.ThumbsUP} alt={emojies.ThumbsUP} className="absolute w-12 top-68 left-18" />
+                    <p className="!text-[20px]">Supporters</p>
+                    </div>
+                    <div className="flex justify-center my-5">
+                    <div
+                        className="rounded-[10px] border border-myred bg-myred/10 !text-[20px] text-center text-myred w-fit py-3 px-6 font-bold flex justify-center items-center gap-5 cursor-pointer"
+                        onClick={() => {
+                        setLiked((prev) => !prev);
+                        setLikeCount((prevCount) =>
+                            !liked ? prevCount + 1 : prevCount || liked ? prevCount - 1 : prevCount
+                        );
+                        }}
+                    >
+                        <img
+                        src={!liked ? emojies.LineHeartEmpty : emojies.LineHeartFill}
+                        alt={!liked ? emojies.LineHeartEmpty : emojies.LineHeartFill}
+                        className="w-10"
+                        />
+                        {!liked ? "LIKE" : "LIKED"}
+                    </div>
+                    </div>
+                </div>
+                </motion.div>
+            </motion.div>
             </section>
+
         </>
     )
 }
