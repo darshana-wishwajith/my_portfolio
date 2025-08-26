@@ -66,13 +66,13 @@ export const interests = [
     {id: 6, name: 'Electronics'},
 ]
 
-import PLKLogo from './../public/assets/plk_logo.png';
-import PLKCover from './../public/assets/plk_cover.png';
+import PLKLogo from '/assets/plk_logo.png';
+import PLKCover from '/assets/plk_cover.png';
 
-import TLLogo from './../public/assets/tl_logo.png';
-import TLCover from './../public/assets/tl_cover.png';
+import TLLogo from '/assets/tl_logo.png';
+import TLCover from '/assets/tl_cover.png';
 
-import upIcon from './../public/assets/up.png';
+import upIcon from '/assets/up.png';
 
 export const upicon = upIcon;
 
@@ -107,11 +107,11 @@ export const businesses = [
 
 ]
 
-import Python from './../public/assets/hr_python.png';
-import Javascript from './../public/assets/hr_js.png';
-import CICD from './../public/assets/su_cicd.png';
-import Arduino from './../public/assets/ii_arduino.png';
-import Illustrator from './../public/assets/clk_illustrator.png';
+import Python from '/assets/hr_python.png';
+import Javascript from '/assets/hr_js.png';
+import CICD from '/assets/su_cicd.png';
+import Arduino from '/assets/ii_arduino.png';
+import Illustrator from '/assets/clk_illustrator.png';
 
 export const certificates = [
     {id:0, image: Python, text: 'HackerRank Certified Python Programmer', web: 'hackerrank.com'},
@@ -123,23 +123,23 @@ export const certificates = [
 
 export const projects = [
     // Project 1
-    {id:1, img: './../public/assets/weatherify.png', name: 'Weatherify', desc: 'Weatherify is a simple weather application built using HTML, CSS, and JavaScript. It utilizes the Tailwind CSS framework for styling and fetches weather data from the OpenWeather API.', githubLink: 'https://github.com/darshana-wishwajith/Weatherify', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/tailwind.png', './../public/assets/weather_api.png',]},
+    {id:1, img: '/assets/weatherify.png', name: 'Weatherify', desc: 'Weatherify is a simple weather application built using HTML, CSS, and JavaScript. It utilizes the Tailwind CSS framework for styling and fetches weather data from the OpenWeather API.', githubLink: 'https://github.com/darshana-wishwajith/Weatherify', icons: ['/assets/html.png', '/assets/css.png', '/assets/js.png', '/assets/tailwind.png', '/assets/weather_api.png',]},
 
     // Project 2
-    {id:2, img: './../public/assets/cc_gen.png', name: 'Credit Card Generator', desc: 'This simple web application can generate fake, virtual Visa and Master, Debit and Credit cards using you details instantly for you.', githubLink: 'https://github.com/darshana-wishwajith/credit_card_generator', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+    {id:2, img: '/assets/cc_gen.png', name: 'Credit Card Generator', desc: 'This simple web application can generate fake, virtual Visa and Master, Debit and Credit cards using you details instantly for you.', githubLink: 'https://github.com/darshana-wishwajith/credit_card_generator', icons: ['/assets/html.png', '/assets/css.png', '/assets/js.png', '/assets/bootstrap.png', '/assets/php.png', '/assets/mysql.png',]},
 
     // Project 3
-    {id:3, img: './../public/assets/occ.png', name: 'Online Class Connector', desc: 'If you have classes with same zoom links, You don’t need find those links on WhatsApp again & again. Instead of that  you can save your class link with class name in this tool connect it easily.', githubLink: 'https://github.com/darshana-wishwajith/Online-Class-Connector', icons: ['./../public/assets/python.png',]},
+    {id:3, img: '/assets/occ.png', name: 'Online Class Connector', desc: 'If you have classes with same zoom links, You don’t need find those links on WhatsApp again & again. Instead of that  you can save your class link with class name in this tool connect it easily.', githubLink: 'https://github.com/darshana-wishwajith/Online-Class-Connector', icons: ['/assets/python.png',]},
 
     // Project 4
-    {id:4, img: './../public/assets/tl_pms.png', name: 'Project Management System', desc: 'Efficient, innovative project management system and website for Tefusion Labs. ️Collaborate, track tasks, optimize resources, and boost productivity!', githubLink: 'https://github.com/darshana-wishwajith/tefusion-labs-PMS', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+    {id:4, img: '/assets/tl_pms.png', name: 'Project Management System', desc: 'Efficient, innovative project management system and website for Tefusion Labs. ️Collaborate, track tasks, optimize resources, and boost productivity!', githubLink: 'https://github.com/darshana-wishwajith/tefusion-labs-PMS', icons: ['/assets/html.png', '/assets/css.png', '/assets/js.png', '/assets/bootstrap.png', '/assets/php.png', '/assets/mysql.png',]},
 ];
 
-import ThumbsUP from './../public/assets/thumbs_up.png';
-import SMFace from './../public/assets/smiling_face.png';
-import ReadHeart from './../public/assets/red_heart.png';
-import LineHeartFill from './../public/assets/line_heart_fill.png';
-import LineHeartEmpty from './../public/assets/line_heart_empty.png';
+import ThumbsUP from '/assets/thumbs_up.png';
+import SMFace from '/assets/smiling_face.png';
+import ReadHeart from '/assets/red_heart.png';
+import LineHeartFill from '/assets/line_heart_fill.png';
+import LineHeartEmpty from '/assets/line_heart_empty.png';
 
 export const emojies = {
     ThumbsUP, SMFace, ReadHeart, LineHeartFill, LineHeartEmpty
@@ -182,36 +182,36 @@ export const filterBtns = ['All Skills', 'Web Dev', 'Software Dev', 'UI/UX', 'Gr
 
 export const skills = [
   // row 1
-  { name: "HTML", src: "./../public/assets/html.png", tags: ["Web Dev"] },
-  { name: "JavaScript", src: "./../public/assets/js.png", tags: ["Web Dev"] },
-  { name: "Tailwind", src: "./../public/assets/tailwind.png", tags: ["Web Dev"] },
-  { name: "TypeScript", src: "./../public/assets/ts.png", tags: ["Web Dev", "Software Dev"] },
-  { name: "Express.js", src: "/./../public/assets/express.png", tags: ["Web Dev"] },
-  { name: "PHP", src: "/./../public/assets/php.png", tags: ["Web Dev"] },
-  { name: "MongoDB", src: "./../public/assets/mongodb.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "HTML", src: "/assets/html.png", tags: ["Web Dev"] },
+  { name: "JavaScript", src: "/assets/js.png", tags: ["Web Dev"] },
+  { name: "Tailwind", src: "/assets/tailwind.png", tags: ["Web Dev"] },
+  { name: "TypeScript", src: "/assets/ts.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "Express.js", src: "/assets/express.png", tags: ["Web Dev"] },
+  { name: "PHP", src: "/assets/php.png", tags: ["Web Dev"] },
+  { name: "MongoDB", src: "/assets/mongodb.png", tags: ["Web Dev", "Software Dev"] },
 
   // row 2
-  { name: "CSS", src: "./../public/assets/css.png", tags: ["Web Dev"] },
-  { name: "Bootstrap", src: "./../public/assets/bootstrap.png", tags: ["Web Dev"] },
-  { name: "React", src: "./../public/assets/react.png", tags: ["Web Dev", "Software Dev"] },
-  { name: "Next.js", src: "./../public/assets/next.png", tags: ["Web Dev"] },
-  { name: "Node.js", src: "./../public/assets/node.png", tags: ["Web Dev", "Software Dev"] },
-  { name: "MySQL", src: "./../public/assets/mysql.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "CSS", src: "/assets/css.png", tags: ["Web Dev"] },
+  { name: "Bootstrap", src: "/assets/bootstrap.png", tags: ["Web Dev"] },
+  { name: "React", src: "/assets/react.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "Next.js", src: "/assets/next.png", tags: ["Web Dev"] },
+  { name: "Node.js", src: "/assets/node.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "MySQL", src: "/assets/mysql.png", tags: ["Web Dev", "Software Dev"] },
 
   // row 3
-  { name: "Arduino", src: "./../public/assets/arduino.png", tags: ["Software Dev"] },
-  { name: "Git", src: "./../public/assets/git.png", tags: ["Software Dev"] },
-  { name: "Python", src: "./../public/assets/python.png", tags: ["Software Dev"] },
-  { name: "Java", src: "./../public/assets/java.png", tags: ["Software Dev"] },
-  { name: "Photoshop", src: "./../public/assets/ps.png", tags: ["Graphic Design","UI/UX"] },
-  { name: "Illustrator", src: "./../public/assets/ai.png", tags: ["Graphic Design","UI/UX"] },
-  { name: "Figma", src: "./../public/assets/figma.png", tags: ["UI/UX"] },
+  { name: "Arduino", src: "/assets/arduino.png", tags: ["Software Dev"] },
+  { name: "Git", src: "/assets/git.png", tags: ["Software Dev"] },
+  { name: "Python", src: "/assets/python.png", tags: ["Software Dev"] },
+  { name: "Java", src: "/assets/java.png", tags: ["Software Dev"] },
+  { name: "Photoshop", src: "/assets/ps.png", tags: ["Graphic Design","UI/UX"] },
+  { name: "Illustrator", src: "/assets/ai.png", tags: ["Graphic Design","UI/UX"] },
+  { name: "Figma", src: "/assets/figma.png", tags: ["UI/UX"] },
 
   // row 4
-  { name: "Linux", src: "./../public/assets/linux.png", tags: ["Software Dev"] },
-  { name: "AWS", src: "./../public/assets/aws.png", tags: ["Software Dev"] },
-  { name: "Google Cloud", src: "./../public/assets/gc.png", tags: ["Software Dev"] },
-  { name: "Azure", src: "./../public/assets/azure.png", tags: ["Software Dev"] },
-  { name: "Vercel", src: "./../public/assets/vercel.png", tags: ["Web Dev", "Software Dev"] },
-  { name: "Appwrite", src: "./../public/assets/appwrite.png", tags: ["Software Dev","Web Dev"] },
+  { name: "Linux", src: "/assets/linux.png", tags: ["Software Dev"] },
+  { name: "AWS", src: "/assets/aws.png", tags: ["Software Dev"] },
+  { name: "Google Cloud", src: "/assets/gc.png", tags: ["Software Dev"] },
+  { name: "Azure", src: "/assets/azure.png", tags: ["Software Dev"] },
+  { name: "Vercel", src: "/assets/vercel.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "Appwrite", src: "/assets/appwrite.png", tags: ["Software Dev","Web Dev"] },
 ];

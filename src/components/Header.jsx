@@ -16,9 +16,6 @@ const Header = () => {
     return(
         <>
             <header>
-                {/* Gradient circle on background */}
-                {/* <BGCircle side='left' className='-z-10'/> */}
-
                 {/* Main navigation bar */}
                 <nav className='justify-between items-center bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[50px] p-2.5 border border-stroke shadow shadow-black my-8 flex'>
 

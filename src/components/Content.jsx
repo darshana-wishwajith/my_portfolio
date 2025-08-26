@@ -29,40 +29,6 @@ const Content = () => {
     return(
         <>
             {/* Hero Section */}
-            {/* <section className="grid md:grid-cols-3 justify-center items-center min-h-[80dvh] text-center md:text-start">
-
-                <div className="md:col-span-1 md:flex hidden">
-                    <img src="./../../public/assets/hero.png" alt="hero.png" className="w-fit h-fit"/>
-                </div>
-
-                <div className="col-span-2">
-                    <h4 className="!text-[20px] flex gap-4">Hi <img src="./../public/assets/wave.gif" className="w-10 h-10"/> I’m <span className="font-semibold !text-[20px]">Darshana Wishwajith</span></h4>
-
-                    <TypeWriter />
-
-                    <h4 className="!text-[20px] py-3">Based on Sri Lanka</h4>
-
-                    <p>I am a passionate software Developer crafting clean, functional, and visually engaging web experiences. My focus is on building fast, accessible, and scalable applications that merge thoughtful design with robust code. Every project is an opportunity to solve problems with creativity and precision, turning ideas into impactful digital solutions.</p>
-
-                    <div className="flex gap-3 py-5 justify-center md:justify-start">
-                        <a href={'#aboutMe'}>
-                            <SecondaryBtn text='Explore Me'/>
-                        </a>
-
-                        <a href={'https://drive.google.com/file/d/1V9XwmRo_FbgDiKlPNb-klSo43jolStOr/view?usp=sharing'} target="_black" id="downloadCV">
-                            <SecondaryBtn text='Download CV'/>
-                        </a>
-                        
-                        <a href={'#contactMe'}>
-                            <SecondaryBtn text='Hire Me'/>
-                        </a>
-                    </div>
-
-                </div>
-
-            </section> */}
-
-            {/* Hero Section */}
             <BGCircle side='left' />
             <BGCircle side='right' />
             <section className="grid md:grid-cols-3 justify-center items-center min-h-[80dvh] text-center md:text-start overflow-hidden">
@@ -87,7 +53,7 @@ const Content = () => {
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                 >
                 <h4 className="!text-[20px] flex gap-4">
-                    Hi <img src="./../public/assets/wave.gif" className="w-10 h-10" /> I’m{" "}
+                    Hi <img src="/assets/wave.gif" className="w-10 h-10" /> I’m{" "}
                     <span className="font-semibold !text-[20px]">Darshana Wishwajith</span>
                 </h4>
 
@@ -208,55 +174,6 @@ const Content = () => {
             </section>   
 
             <hr className="border-stroke my-10"/>  
-
-            {/* Contact Section */}
-            {/* <section id="contactMe">
-                <GradientHeading type="h2" heading="Get in touch with me"/>
-                <div className="grid grid-cols-3 gap-5 mt-10">
-                   <div className="col-span-3 md:col-span-2 bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[10px] border border-stroke p-10 space-y-8 relative">
-
-
-                   <div className="flex-col xl:flex-row flex gap-6">
-                        <Input id='fname' name='First Name' type='text' textarea={false} placeholder='John'/>
-                        <Input id='lname' name='Last Name' type='text' textarea={false} placeholder='Doe'/>
-                   </div>
-                   <div>
-                        <Input id='email' name='Email Address' type='email' textarea={false} placeholder='john@example.com'/>
-                   </div>
-
-                   <div>
-                        <Input id='subject' name='Subject' type='text' textarea={false} placeholder='Test'/>
-                   </div>
-
-                   <div>
-                        <Input id='message' name='Message' type='text' textarea={true}/>
-                   </div>
-
-                   <div>
-                    <PrimaryBtn text="Submit"/>
-                   </div>
-
-                </div>
-                   <div className="col-span-3 md:col-span-1 flex justify-center items-center">
-                        <div className="bg-sectionbg border border-stroke rounded-[10px] p-5 relative w-full">
-                            <h5 className="!text-[20px] font-semibold py-5" id="LoveSupport">Love & Support</h5>
-                            <small className="!text-[12px] text-font-light">If You like to my portfolio, you give me a hart reaction</small>
-                            <div className="flex flex-col justify-center items-center">
-                                <img src={emojies.ReadHeart} alt={emojies.ReadHeart} className="absolute w-25 top-35 left-3"/>
-                                <span className="!text-[75px] font-bold text-myred">{likeCount}</span>
-                                <img src={emojies.SMFace} alt={emojies.SMFace} className="absolute w-15 right-10"/>
-                                <img src={emojies.ThumbsUP} alt={emojies.ThumbsUP} className="absolute w-12 top-68 left-18"/>
-                                <p className="!text-[20px]">Supporters</p>
-                            </div>
-                            <div className="flex justify-center my-5">
-                                <div className="rounded-[10px] border border-myred bg-myred/10 !text-[20px] text-center text-myred w-fit py-3 px-6 font-bold flex justify-center items-center gap-5 cursor-pointer" onClick={() => {setLiked((prev) => !prev); setLikeCount(prevCount => !liked ? prevCount + 1: prevCount || liked ? prevCount -1 : prevCount )}}><img src={!liked ? emojies.LineHeartEmpty : emojies.LineHeartFill} alt={!liked ? emojies.LineHeartEmpty : emojies.LineHeartFill} className="w-10"/>{!liked ?'LIKE': 'LIKED'}</div>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-            </section> */}
-
-
 
             {/* Contact Section */}
             <section id="contactMe">
