@@ -52,7 +52,7 @@ const Content = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                 >
-                <h4 className="!text-[20px] flex gap-4">
+                <h4 className="md:!text-[20px] !text-[15px] flex gap-4 items-center">
                     Hi <img src="/assets/wave.gif" className="w-10 h-10" /> I’m{" "}
                     <span className="font-semibold md:!text-[20px] !text-[15px]">Darshana Wishwajith</span>
                 </h4>
