@@ -29,8 +29,8 @@ const Content = () => {
     return(
         <>
             {/* Hero Section */}
-            <BGCircle side='left' />
-            <BGCircle side='right' />
+            {/* <BGCircle side='left' /> */}
+            {/* <BGCircle side='right' /> */}
             <section className="grid md:grid-cols-3 justify-center items-center min-h-[80dvh] text-center md:text-start overflow-hidden">
 
                 {/* Left image */}
@@ -99,7 +99,7 @@ const Content = () => {
                 <GradientHeading type="h2" heading="Who Am I" />
                 <div className="grid grid-cols-7">
                     {/* Personal Statement */}
-                    <BGCircle side='right'  />
+                    {/* <BGCircle side='right'  /> */}
                     <div className="col-span-7 md:col-span-4">
 
                         <p className="py-5">Passionate and driven IT & Software Engineering enthusiast with a strong interest in web design, web development, software development, graphic design, robotics, and electronics. Currently pursuing a BICT(Hons) at Rajarata University of Sri Lanka, gaining extensive knowledge and skills in these fields. Aspiring to become a proficient full-stack software engineer, committed to continuous learning and professional growth.</p>
@@ -113,7 +113,7 @@ const Content = () => {
                         </div>
                         
                     </div>
-                    <BGCircle side='left' />
+                    {/* <BGCircle side='left' /> */}
                     {/* Educational Background Timeline */}
                     <div className="col-span-7 md:col-span-3 md:border-s border-s-stroke md:ms-10 ps-10">
                         <h3 className="!text-[25px] text-white font-bold py-6" id="educationalBackground">Educational Background</h3>
@@ -123,7 +123,7 @@ const Content = () => {
                 
                 {/* Entrepreneurship */}
                 <div className="mb-10">
-                    <BGCircle side='right'  />
+                    {/* <BGCircle side='right'  /> */}
                     <h3 className="!text-[25px] text-white font-bold py-6" id="entrepreneurship">Entrepreneurship</h3>
                     <div className="flex flex-col md:flex-row gap-5">
                         <Business id={0} />
@@ -136,7 +136,7 @@ const Content = () => {
 
             {/* Skills section */}
             <section id="mySkills">
-                <BGCircle side='left' />
+                {/* <BGCircle side='left' /> */}
                 <GradientHeading heading={'My Skills'} type='h2' />
 
                 <h3 className="!text-[25px] text-white font-bold py-10" id="ToolsTech">Tools & Technologies</h3>
@@ -146,7 +146,7 @@ const Content = () => {
                 </div>
                 
                 <h3 className="!text-[25px] text-white font-bold py-10" id="Certifications">Certifications</h3>
-                <BGCircle side='right'  />
+                {/* <BGCircle side='right'  /> */}
 
                 <div className="flex gap-5 overflow-x-auto pb-10">
                    {certificates.map((certificate) => {
@@ -160,7 +160,7 @@ const Content = () => {
             {/* Featured Projects */}
             <section id="myProjects">
                 <GradientHeading type="h2" heading="Featured Projects"/>
-                <BGCircle side='left' />
+                {/* <BGCircle side='left' /> */}
                 <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 md:gap-5  gap-y-5 mt-10">
                    {projects.map((project) => {
                     return <ProjectCard key={project.id} project={project}/>
@@ -168,7 +168,7 @@ const Content = () => {
                 </div>
                 <div className="flex justify-center items-center my-10">
                     <SecondaryBtn text={"View More"}/>
-                    <BGCircle side='right' />
+                    {/* <BGCircle side='right' /> */}
                 </div>
                 
             </section>   
@@ -178,7 +178,7 @@ const Content = () => {
             {/* Contact Section */}
             <section id="contactMe">
             <GradientHeading type="h2" heading="Get in touch with me" />
-            <BGCircle side='left' />
+            {/* <BGCircle side='left' /> */}
 
             <motion.div
                 className="grid grid-cols-3 gap-5 mt-10"
@@ -226,7 +226,7 @@ const Content = () => {
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
                 >
                 <div className="bg-sectionbg border border-stroke rounded-[10px] p-5 relative w-full">
-                    <BGCircle side='left' />
+                    {/* <BGCircle side='left' /> */}
                     <h5 className="!text-[20px] font-semibold py-5" id="LoveSupport">
                     Love & Support
                     </h5>
