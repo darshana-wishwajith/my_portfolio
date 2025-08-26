@@ -8,7 +8,7 @@ import BGCircle from './BGCircle'
 
 const Footer = () => {
     return(
-        <>
+        <>  
             <footer className='bg-[#4071C5]/10 rounded-[10px] my-10'>
                 {/* First row */}
                 <div className='px-[100px] flex justify-between items-center py-3'>
@@ -69,6 +69,7 @@ const Footer = () => {
                     <p className='!text-[10px] text-[#BCBCBC]/50 text-center'>Copyright &copy;  2025 | All Rights Reserved | darshanaw.dev</p>
                 </div>
             </footer>
+            
         </>
     )
 }

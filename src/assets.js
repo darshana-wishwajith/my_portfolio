@@ -107,8 +107,6 @@ export const businesses = [
 
 ]
 
-export const filterBtns = ['All Skills', 'Web Dev', 'Software Dev', 'UI/UX', 'Graphic Design'];
-
 import Python from './../public/assets/hr_python.png';
 import Javascript from './../public/assets/hr_js.png';
 import CICD from './../public/assets/su_cicd.png';
@@ -135,4 +133,85 @@ export const projects = [
 
     // Project 4
     {id:4, img: './../public/assets/tl_pms.png', name: 'Project Management System', desc: 'Efficient, innovative project management system and website for Tefusion Labs. ️Collaborate, track tasks, optimize resources, and boost productivity!', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+];
+
+import ThumbsUP from './../public/assets/thumbs_up.png';
+import SMFace from './../public/assets/smiling_face.png';
+import ReadHeart from './../public/assets/red_heart.png';
+import LineHeartFill from './../public/assets/line_heart_fill.png';
+import LineHeartEmpty from './../public/assets/line_heart_empty.png';
+
+export const emojies = {
+    ThumbsUP, SMFace, ReadHeart, LineHeartFill, LineHeartEmpty
+};
+
+export const education = [
+  {
+    period: "2024 - 2028",
+    title: "BICT Hons UG",
+    href: "#bict",
+    place: "Rajarata University of Sri Lanka",
+  },
+  {
+    period: "2023 - 2024",
+    title: "Professional Dip. in Software Engineering",
+    href: "#pdse",
+    place: "Birmingham City University",
+  },
+  {
+    period: "2020 - 2022",
+    title: "G.C.E. Advanced Level | B2 C1 | Z 1.3751",
+    href: "#al",
+    place: "B Dharmapala National College Bandarawela",
+  },
+  {
+    period: "2018 - 2019",
+    title: "G.C.E. Ordinary Level | A6 B3",
+    href: "#ol",
+    place: "B Keppetipola National College",
+  },
+  {
+    period: "2013",
+    title: "Scholarship Examination | 163",
+    href: "#scholarship",
+    place: "B Kalabululanda Maha Vidyalaya",
+  },
+];
+
+export const filterBtns = ['All Skills', 'Web Dev', 'Software Dev', 'UI/UX', 'Graphic Design'];
+
+export const skills = [
+  // row 1
+  { name: "HTML", src: "./../public/assets/html.png", tags: ["Web Dev"] },
+  { name: "JavaScript", src: "./../public/assets/js.png", tags: ["Web Dev"] },
+  { name: "Tailwind", src: "./../public/assets/tailwind.png", tags: ["Web Dev"] },
+  { name: "TypeScript", src: "./../public/assets/ts.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "Express.js", src: "/./../public/assets/express.png", tags: ["Web Dev"] },
+  { name: "PHP", src: "/./../public/assets/php.png", tags: ["Web Dev"] },
+  { name: "MongoDB", src: "./../public/assets/mongodb.png", tags: ["Web Dev", "Software Dev"] },
+
+  // row 2
+  { name: "CSS", src: "./../public/assets/css.png", tags: ["Web Dev"] },
+  { name: "Bootstrap", src: "./../public/assets/bootstrap.png", tags: ["Web Dev"] },
+  { name: "React", src: "./../public/assets/react.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "Next.js", src: "./../public/assets/next.png", tags: ["Web Dev"] },
+  { name: "Node.js", src: "./../public/assets/node.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "MySQL", src: "./../public/assets/mysql.png", tags: ["Web Dev", "Software Dev"] },
+
+  // row 3
+  { name: "Arduino", src: "./../public/assets/arduino.png", tags: ["Software Dev"] },
+  { name: "Git", src: "./../public/assets/git.png", tags: ["Software Dev"] },
+  { name: "Python", src: "./../public/assets/python.png", tags: ["Software Dev"] },
+  { name: "Java", src: "./../public/assets/java.png", tags: ["Software Dev"] },
+  { name: "Photoshop", src: "./../public/assets/ps.png", tags: ["Graphic Design","UI/UX"] },
+  { name: "Illustrator", src: "./../public/assets/ai.png", tags: ["Graphic Design","UI/UX"] },
+  { name: "Figma", src: "./../public/assets/figma.png", tags: ["UI/UX"] },
+
+  // row 4
+  { name: "Linux", src: "./../public/assets/linux.png", tags: ["Software Dev"] },
+  { name: "AWS", src: "./../public/assets/aws.png", tags: ["Software Dev"] },
+  { name: "Google Cloud", src: "./../public/assets/gc.png", tags: ["Software Dev"] },
+  { name: "Azure", src: "./../public/assets/azure.png", tags: ["Software Dev"] },
+  { name: "Vercel", src: "./../public/assets/vercel.png", tags: ["Web Dev", "Software Dev"] },
+  { name: "Appwrite", src: "./../public/assets/appwrite.png", tags: ["Software Dev","Web Dev"] },
 ];

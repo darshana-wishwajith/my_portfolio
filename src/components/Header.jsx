@@ -19,7 +19,7 @@ const Header = () => {
 
                     <Logo color="#4071C5"/>
 
-                    <div className='flex gap-6'>
+                    <div className='md:flex hidden gap-6'>
                         {navItems.map((navItem, index) => {
                             return <a href='#' key={index} className='hover:underline underline-offset-4 hover:text-priamry'>{navItem}</a>    
                         })}
