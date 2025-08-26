@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       {/* Floating social icons */}
-      <div className='hidden md:flex'>
+      <div className='hidden lg:flex'>
         <SocialBar/>
       </div>
       

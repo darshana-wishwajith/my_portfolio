@@ -36,24 +36,24 @@ const Content = () => {
                 <div className="col-span-2">
                     <h4 className="!text-[20px]">Hi 👋 I’m <span className="font-semibold !text-[20px]">Darshana Wishwajith</span></h4>
 
-                    <GradientHeading heading='Full-Stack Software Engineer |' type='h1'/>
+                    <GradientHeading heading='Full-Stack Software Engineer' type='h1'/>
 
                     <h4 className="!text-[20px] py-3">Based on Sri Lanka</h4>
 
                     <p>I am a passionate software Developer crafting clean, functional, and visually engaging web experiences. My focus is on building fast, accessible, and scalable applications that merge thoughtful design with robust code. Every project is an opportunity to solve problems with creativity and precision, turning ideas into impactful digital solutions.</p>
 
                     <div className="flex gap-3 py-5 justify-center md:justify-start">
-                        <NavLink to={'#aboutMe'}>
+                        <a href={'#aboutMe'}>
                             <SecondaryBtn text='Explore Me'/>
-                        </NavLink>
+                        </a>
 
-                        <NavLink to={'#downloadCV'}>
+                        <a href={'https://drive.google.com/file/d/1V9XwmRo_FbgDiKlPNb-klSo43jolStOr/view?usp=sharing'} target="_black" id="downloadCV">
                             <SecondaryBtn text='Download CV'/>
-                        </NavLink>
+                        </a>
                         
-                        <NavLink to={'#contactMe'}>
+                        <a href={'#contactMe'}>
                             <SecondaryBtn text='Hire Me'/>
-                        </NavLink>
+                        </a>
                     </div>
 
                 </div>
@@ -63,37 +63,37 @@ const Content = () => {
             <hr className="border-stroke"/>
 
             {/* About Section */}
-            <section className="pt-10 pb-5">
+            <section className="pt-10 pb-5" id="aboutMe">
                 <GradientHeading type="h2" heading="Who Am I" />
                 <div className="grid grid-cols-7">
                     {/* Personal Statement */}
-                    <BGCircle side='right'  />
-                    <div className="col-span-4">
+                    {/* <BGCircle side='right'  /> */}
+                    <div className="col-span-7 md:col-span-4">
 
                         <p className="py-5">Passionate and driven IT & Software Engineering enthusiast with a strong interest in web design, web development, software development, graphic design, robotics, and electronics. Currently pursuing a BICT(Hons) at Rajarata University of Sri Lanka, gaining extensive knowledge and skills in these fields. Aspiring to become a proficient full-stack software engineer, committed to continuous learning and professional growth.</p>
 
-                        <h3 className="!text-[25px] text-white font-bold py-6">My Interests</h3>
+                        <h3 className="!text-[25px] text-white font-bold py-6" id="myInterests">My Interests</h3>
 
-                        <div className="grid grid-cols-3 grid-rows-2 gap-10">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-10">
                             {interests.map((interest) => {
                                 return <InterestCard key={interest.id} name={interest.name}/>
                             })}
                         </div>
                         
                     </div>
-                    <BGCircle side='left' />
+                    {/* <BGCircle side='left' /> */}
                     {/* Educational Background Timeline */}
-                    <div className="col-span-3 border-s border-s-stroke ms-10 ps-10">
-                        <h3 className="!text-[25px] text-white font-bold py-6">Educational Background</h3>
+                    <div className="col-span-7 md:col-span-3 md:border-s border-s-stroke md:ms-10 ps-10">
+                        <h3 className="!text-[25px] text-white font-bold py-6" id="educationalBackground">Educational Background</h3>
                         {education.map((details) => <EduTimeline details={details}/>)}
                     </div>
                 </div>
                 
                 {/* Entrepreneurship */}
                 <div className="mb-10">
-                    <BGCircle side='right'  />
-                    <h3 className="!text-[25px] text-white font-bold py-6">Entrepreneurship</h3>
-                    <div className="flex gap-5">
+                    {/* <BGCircle side='right'  /> */}
+                    <h3 className="!text-[25px] text-white font-bold py-6" id="entrepreneurship">Entrepreneurship</h3>
+                    <div className="flex flex-col md:flex-row gap-5">
                         <Business id={0} />
                         <Business id={1} />
                     </div>
@@ -103,29 +103,20 @@ const Content = () => {
             <hr className="border-stroke my-10"/>
 
             {/* Skills section */}
-            <section>
-                <BGCircle side='left' />
+            <section id="mySkills">
+                {/* <BGCircle side='left' /> */}
                 <GradientHeading heading={'My Skills'} type='h2' />
 
-                <h3 className="!text-[25px] text-white font-bold py-6">Tools & Technologies</h3>
-
-                {/* <div className="flex gap-3">
-                    {filterBtns.map((filter) => {
-                        return <SecondaryBtn text={filter} key={filter} active={activeFilter === filter} onClick={() => setActiveFilter(filter)}/>
-                    })}
-                </div>
-                <div className="grid grid-cols-[15] grid-rows-6">
-                    
-                </div> */}
+                <h3 className="!text-[25px] text-white font-bold py-10" id="ToolsTech">Tools & Technologies</h3>
 
                 <div className="flex justify-center items-center">
                     <SkillsBoard />
                 </div>
                 
-                <h3 className="!text-[25px] text-white font-bold py-6">Certifications</h3>
-                <BGCircle side='right'  />
+                <h3 className="!text-[25px] text-white font-bold py-10" id="Certifications">Certifications</h3>
+                {/* <BGCircle side='right'  /> */}
 
-                <div className="flex gap-5 overflow-x-auto">
+                <div className="flex gap-5 overflow-x-auto pb-10">
                    {certificates.map((certificate) => {
                     return <CertificateCard certificate={certificate} key={certificate.id}/>
                    })}
@@ -135,17 +126,17 @@ const Content = () => {
             <hr className="border-stroke my-10"/>
             
             {/* Featured Projects */}
-            <section>
+            <section id="myProjects">
                 <GradientHeading type="h2" heading="Featured Projects"/>
-                <BGCircle side='left' />
-                <div className="grid grid-cols-2 grid-rows-2 gap-5 mt-10">
+                {/* <BGCircle side='left' /> */}
+                <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 md:grid-rows-2 md:gap-5  gap-y-5 mt-10">
                    {projects.map((project) => {
                     return <ProjectCard key={project.id} project={project}/>
                    })}
                 </div>
                 <div className="flex justify-center items-center my-10">
                     <SecondaryBtn text={"View More"}/>
-                    <BGCircle side='right' />
+                    {/* <BGCircle side='right' /> */}
                 </div>
                 
             </section>   
@@ -153,13 +144,14 @@ const Content = () => {
             <hr className="border-stroke my-10"/>  
 
             {/* Contact Section */}
-            <section>
+            <section id="contactMe">
                 <GradientHeading type="h2" heading="Get in touch with me"/>
-                <BGCircle side='left' />
                 <div className="grid grid-cols-3 gap-5 mt-10">
-                   <div className="col-span-2 bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[10px] border border-stroke p-10 space-y-8">
+                   <div className="col-span-3 md:col-span-2 bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[10px] border border-stroke p-10 space-y-8 relative">
 
-                   <div className="flex gap-6">
+                    {/* <BGCircle side='left' />     */}
+
+                   <div className="flex-col xl:flex-row flex gap-6">
                         <Input id='fname' name='First Name' type='text' textarea={false} placeholder='John'/>
                         <Input id='lname' name='Last Name' type='text' textarea={false} placeholder='Doe'/>
                    </div>
@@ -180,9 +172,9 @@ const Content = () => {
                    </div>
 
                 </div>
-                   <div className="col-span-1 flex justify-center items-center">
-                        <div className="bg-sectionbg border border-stroke rounded-[10px] p-5 relative">
-                            <h5 className="!text-[20px] font-semibold py-5">Love & Support</h5>
+                   <div className="col-span-3 md:col-span-1 flex justify-center items-center">
+                        <div className="bg-sectionbg border border-stroke rounded-[10px] p-5 relative w-full">
+                            <h5 className="!text-[20px] font-semibold py-5" id="LoveSupport">Love & Support</h5>
                             <small className="!text-[12px] text-font-light">If You like to my portfolio, you give me a hart reaction</small>
                             <div className="flex flex-col justify-center items-center">
                                 <img src={emojies.ReadHeart} alt={emojies.ReadHeart} className="absolute w-25 top-35 left-3"/>

@@ -9,15 +9,15 @@ import LinkedinIconLight from './../src/../public/assets/linkedin_icon_light.png
 import EmailIconLight from './../src/../public/assets/email_icon_light.png';
 
 export const socialIconsDark = [
-    {id: 1, ico: GithubIconDark, str: 'GitHubDark Icon'},
-    {id: 2, ico: LinkedinIconDark, str: 'LinkedInDark Icon'},
-    {id: 3, ico: EmailIconDark, str: 'EmailDark Icon'},
+    {id: 1, ico: GithubIconDark, str: 'GitHubDark Icon', link: 'https://github.com/darshana-wishwajith'},
+    {id: 2, ico: LinkedinIconDark, str: 'LinkedInDark Icon', link: 'https://www.linkedin.com/in/darshana-wishwajith'},
+    {id: 3, ico: EmailIconDark, str: 'EmailDark Icon', link:'mailto:darshanawishwajith494@gmail.com'},
 ];
 
 export const socialIconsLight = [
-    {id: 1, ico: GithubIconLight, str: 'GitHubLight Icon'},
-    {id: 2, ico: LinkedinIconLight, str: 'LinkedInLight Icon'},
-    {id: 3, ico: EmailIconLight, str: 'EmailLight Icon'},
+    {id: 1, ico: GithubIconLight, str: 'GitHubLight Icon', link: 'https://github.com/darshana-wishwajith'},
+    {id: 2, ico: LinkedinIconLight, str: 'LinkedInLight Icon', link: 'https://www.linkedin.com/in/darshana-wishwajith'},
+    {id: 3, ico: EmailIconLight, str: 'EmailLight Icon', link:'mailto:darshanawishwajith494@gmail.com'},
 ];
 
 
@@ -39,7 +39,7 @@ export const footerGroups = [
         title: 'More',
         items: [
             {label: 'Download CV', href: '#downloadCV'},
-            {label: 'Hire Me', href: '#hireMe'},
+            {label: 'Hire Me', href: '#contactMe'},
             {label: 'My Interests', href: '#myInterests'},
             {label: 'Educational Background', href: '#educationalBackground'},
             {label: 'Entrepreneurship', href: '#entrepreneurship'},
@@ -50,7 +50,7 @@ export const footerGroups = [
         title: 'extras',
         items: [
             {label: 'Tools & Tech.', href: '#ToolsTech'},
-            {label: 'Certifications', href: '#ToolsTech'},
+            {label: 'Certifications', href: '#Certifications'},
             {label: 'Love & Support', href: '#LoveSupport'},
         ]
     }
@@ -123,16 +123,16 @@ export const certificates = [
 
 export const projects = [
     // Project 1
-    {id:1, img: './../public/assets/weatherify.png', name: 'Weatherify', desc: 'Weatherify is a simple weather application built using HTML, CSS, and JavaScript. It utilizes the Tailwind CSS framework for styling and fetches weather data from the OpenWeather API.', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/tailwind.png', './../public/assets/weather_api.png',]},
+    {id:1, img: './../public/assets/weatherify.png', name: 'Weatherify', desc: 'Weatherify is a simple weather application built using HTML, CSS, and JavaScript. It utilizes the Tailwind CSS framework for styling and fetches weather data from the OpenWeather API.', githubLink: 'https://github.com/darshana-wishwajith/Weatherify', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/tailwind.png', './../public/assets/weather_api.png',]},
 
     // Project 2
-    {id:2, img: './../public/assets/cc_gen.png', name: 'Credit Card Generator', desc: 'This simple web application can generate fake, virtual Visa and Master, Debit and Credit cards using you details instantly for you.', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+    {id:2, img: './../public/assets/cc_gen.png', name: 'Credit Card Generator', desc: 'This simple web application can generate fake, virtual Visa and Master, Debit and Credit cards using you details instantly for you.', githubLink: 'https://github.com/darshana-wishwajith/credit_card_generator', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
 
     // Project 3
-    {id:3, img: './../public/assets/occ.png', name: 'Online Class Connector', desc: 'If you have classes with same zoom links, You don’t need find those links on WhatsApp again & again. Instead of that  you can save your class link with class name in this tool connect it easily.', githubLink: '#', icons: ['./../public/assets/python.png',]},
+    {id:3, img: './../public/assets/occ.png', name: 'Online Class Connector', desc: 'If you have classes with same zoom links, You don’t need find those links on WhatsApp again & again. Instead of that  you can save your class link with class name in this tool connect it easily.', githubLink: 'https://github.com/darshana-wishwajith/Online-Class-Connector', icons: ['./../public/assets/python.png',]},
 
     // Project 4
-    {id:4, img: './../public/assets/tl_pms.png', name: 'Project Management System', desc: 'Efficient, innovative project management system and website for Tefusion Labs. ️Collaborate, track tasks, optimize resources, and boost productivity!', githubLink: '#', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
+    {id:4, img: './../public/assets/tl_pms.png', name: 'Project Management System', desc: 'Efficient, innovative project management system and website for Tefusion Labs. ️Collaborate, track tasks, optimize resources, and boost productivity!', githubLink: 'https://github.com/darshana-wishwajith/tefusion-labs-PMS', icons: ['./../public/assets/html.png', './../public/assets/css.png', './../public/assets/js.png', './../public/assets/bootstrap.png', './../public/assets/php.png', './../public/assets/mysql.png',]},
 ];
 
 import ThumbsUP from './../public/assets/thumbs_up.png';
