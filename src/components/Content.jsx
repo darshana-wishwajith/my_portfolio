@@ -29,7 +29,7 @@ const Content = () => {
     return(
         <>
             {/* Hero Section */}
-            <section className="grid md:grid-cols-3 justify-center items-center min-h-[80dvh] text-center md:text-start">
+            {/* <section className="grid md:grid-cols-3 justify-center items-center min-h-[80dvh] text-center md:text-start">
 
                 <div className="md:col-span-1 md:flex hidden">
                     <img src="./../../public/assets/hero.png" alt="hero.png" className="w-fit h-fit"/>
@@ -60,6 +60,68 @@ const Content = () => {
 
                 </div>
 
+            </section> */}
+
+            {/* Hero Section */}
+            <section className="grid md:grid-cols-3 justify-center items-center min-h-[80dvh] text-center md:text-start overflow-hidden">
+
+                {/* Left image */}
+                <motion.div
+                    className="md:col-span-1 md:flex hidden"
+                    initial={{ opacity: 0, x: -60 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                >
+                    <img src="./../../public/assets/hero.png" alt="hero.png" className="w-fit h-fit" />
+                </motion.div>
+
+                {/* Right content */}
+                <motion.div
+                className="col-span-2"
+                initial={{ opacity: 0, x: 60 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                >
+                <h4 className="!text-[20px] flex gap-4">
+                    Hi <img src="./../public/assets/wave.gif" className="w-10 h-10" /> I’m{" "}
+                    <span className="font-semibold !text-[20px]">Darshana Wishwajith</span>
+                </h4>
+
+                <TypeWriter />
+
+                <h4 className="!text-[20px] py-3">Based on Sri Lanka</h4>
+
+                <p>
+                    I am a passionate software Developer crafting clean, functional, and
+                    visually engaging web experiences. My focus is on building fast,
+                    accessible, and scalable applications that merge thoughtful design with
+                    robust code. Every project is an opportunity to solve problems with
+                    creativity and precision, turning ideas into impactful digital solutions.
+                </p>
+
+                <div className="flex gap-3 py-5 justify-center md:justify-start">
+                    <a href={"#aboutMe"}>
+                    <SecondaryBtn text="Explore Me" />
+                    </a>
+
+                    <a
+                    href={
+                        "https://drive.google.com/file/d/1V9XwmRo_FbgDiKlPNb-klSo43jolStOr/view?usp=sharing"
+                    }
+                    target="_blank"
+                    rel="noreferrer"
+                    id="downloadCV"
+                    >
+                    <SecondaryBtn text="Download CV" />
+                    </a>
+
+                    <a href={"#contactMe"}>
+                    <SecondaryBtn text="Hire Me" />
+                    </a>
+                </div>
+                </motion.div>
             </section>
 
             <hr className="border-stroke"/>
