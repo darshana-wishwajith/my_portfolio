@@ -35,7 +35,7 @@ export default function RotatingTypewriter() {
   }, [index]);
 
   return (
-    <h1 className="!text-[40px] lg:!text-[50px] font-extrabold bg-gradient-to-r from-priamry to-priamry/25 text-transparent bg-clip-text md:leading-20 leading-10">
+    <h1 className="!text-[40px] lg:!text-[50px] font-extrabold bg-gradient-to-r from-priamry to-priamry/25 text-transparent bg-clip-text md:leading-20 leading-15">
       {text}
       <motion.span
         aria-hidden="true"
