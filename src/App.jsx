@@ -15,7 +15,7 @@ const App = () => {
       
 
       {/* Main container */}
-      <div className="mx-[25px] lg:mx-[200px]">
+      <div className="mx-[25px] lg:mx-[200px] overflow-x-hidden">
         <Header/>
         <Content />
         <Footer />
