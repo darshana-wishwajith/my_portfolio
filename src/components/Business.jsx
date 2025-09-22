@@ -60,11 +60,11 @@ const Business = ({ id }) => {
             <p className="py-5">{businessObj.desc}</p>
             <small className="py-3 !text-[10px] text-font-light">{businessObj.email}</small>
             <div className="text-priamry flex justify-between pt-3">
-              <a href="#" className="flex items-center gap-3 underline">
+              <a href={businessObj.fbpage} target="_blank" rel="noreferrer" className="flex items-center gap-3 underline">
                 Facebook Link <img src={businessObj.linkIcon} alt="upIcon" className="w-[10px] h-[10px]" />
               </a>
               <a
-                href="https://www.premifylk.com"
+                href={businessObj.weblink}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-3 underline"

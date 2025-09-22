@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className='px-[25px] md:px-[100px] flex flex-col lg:flex-row gap-5 py-3 columns-6'>
                     
                     {/* Footer nav link */}
-                    <div className='grid lg:grid-cols-3 col-span-5'>
+                    <div className='grid lg:grid-cols-3 col-span-5 w-full'>
                         {footerGroups.map((group) => {
                             return <><ul key={group.title}>
                                 {group.items.map((item) => {
@@ -53,10 +53,10 @@ const Footer = () => {
                     </div>
                     
                     {/* Subscribe to newsletter */}
-                    <div className='grid lg:grid-cols-1'>
+                    <div className='grid lg:grid-cols-1 w-full'>
                         <div className='flex flex-col justify-center items-start gap-10 col-span-2'>
                         <h3 className='!text-2xl font-semibold'>Subscribe to Newsletter</h3>
-                        <div className='flex gap-5 bg-gradient-to-r from-[#D9D9D9]/10 to-[#737373]/10 ps-8 rounded-[50px] border border-white/25 pe-1 py-1 mb-5'>
+                        <div className='flex justify-between gap-5 bg-gradient-to-r from-[#D9D9D9]/10 to-[#737373]/10 ps-8 rounded-[50px] border border-white/25 pe-1 py-1 mb-5 w-full'>
                             <input type="email" id="subscribeEmail" className='focus:outline-0 placeholder:text-[#999999] w-25' placeholder='Email Address....'/>
                             <PrimaryBtn text="Subscribe"/>
                         </div>

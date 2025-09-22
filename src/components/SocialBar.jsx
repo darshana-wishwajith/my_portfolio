@@ -3,7 +3,7 @@ import {socialIconsDark} from '../assets'
 const SocialBar = () => {
     return (
         <>
-            <nav className="flex flex-col justify-between items-center bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[50px] p-2.5 border border-stroke shadow shadow-black my-60 me-20 w-fit  right-0 fixed">
+            <nav className="flex flex-col justify-between items-center bg-gradient-to-r from-gradientbg-left to-gradientbg-right rounded-[50px] p-2.5 border border-stroke shadow shadow-black my-100 me-20 w-fit  right-0 fixed">
                 {socialIconsDark.map((icon) => {
                     return(
                         <a href={icon.link} key={icon.id}>
