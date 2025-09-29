@@ -1,12 +1,67 @@
-# React + Vite
+# Portfolio - Darshana W. 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website, built to showcase my skills, projects, and experience.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-brightgreen?style=for-the-badge)](https://your-live-demo-url.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Projects:** A collection of my work, with links to live demos and source code.
+- **Skills:** An overview of my technical skills and expertise.
+- **Education:** My educational background and qualifications.
+- **Contact:** A form to get in touch with me.
+- **Responsive Design:** The website is fully responsive and works on all devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:**
+  - ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+  - ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+  - ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  - ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+- **Backend & Database:**
+  - ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white)
+- **Deployment:**
+  - ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1.  **Clone the repo:**
+    ```sh
+    git clone https://github.com/your-username/my_portfolio.git
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd my_portfolio
+    ```
+3.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+### Running the Application
+
+1.  **Start the development server:**
+    ```sh
+    npm run dev
+    ```
+2.  **Open your browser** and navigate to `http://localhost:5173` (or the address shown in your terminal).
+
+## 🖼️ Screenshots
+
+*(Add your screenshots here)*
+
+## 📫 Contact
+
+Darshana W. - [your-email@example.com](mailto:your-email@example.com)
+
+Project Link: [https://github.com/your-username/my_portfolio](https://github.com/your-username/my_portfolio)
