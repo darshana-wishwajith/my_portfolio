@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, built to showcase my skills, projects, and experience.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-brightgreen?style=for-the-badge)](https://your-live-demo-url.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit-brightgreen?style=for-the-badge)](https://my-portfolio-ten-iota-19.vercel.app/)
 
 ## ✨ Features
 
@@ -58,10 +58,14 @@ To get a local copy up and running, follow these simple steps.
 
 ## 🖼️ Screenshots
 
-*(Add your screenshots here)*
+<img width="1340" height="577" alt="image" src="https://github.com/user-attachments/assets/db722e66-2126-45bd-8b25-3be01040691f" />
+<br/>
+<img width="1336" height="589" alt="image" src="https://github.com/user-attachments/assets/404514f4-fa6d-47ab-9d3f-3a35e2612745" />
+<br/>
+<img width="1342" height="590" alt="image" src="https://github.com/user-attachments/assets/055b8b8d-c5bb-4b62-a601-ed242ed105cb" />
 
 ## 📫 Contact
 
-Darshana W. - [your-email@example.com](mailto:your-email@example.com)
+Darshana W. - [darshanawishwajith494@gmail.com](mailto:darshanawishwajith494@gmail.com)
 
-Project Link: [https://github.com/your-username/my_portfolio](https://github.com/your-username/my_portfolio)
+Project Link: [https://github.com/darshana-wishwajith/my_portfolio](https://github.com/darshana-wishwajith/my_portfolio)
