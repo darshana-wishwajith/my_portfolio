@@ -1,14 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import SecondaryBtn from "./SecondaryBtn";
 import { skills, filterBtns } from "../assets";
 
 export default function SkillsBoard() {
   const [activeFilter, setActiveFilter] = useState("All Skills");
+  const [cell, setCell] = useState(65);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setCell(65 / 2);
+      } else {
+        setCell(65);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const cols = 15;
   const rows = 6;
-  const cell = 65;
 
   const firstInnerRow = 1;
   const lastInnerRow = rows - 2;
