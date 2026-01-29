@@ -34,7 +34,7 @@ const ProjectCard = ({ project }) => {
 
         <a
           href={project.githubLink}
-          className="text-priamry underline flex items-center gap-2"
+          className="text-priamry underline flex items-center gap-2 hover:underline-offset-4"
           target="_blank"
           rel="noreferrer"
         >

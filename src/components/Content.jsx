@@ -54,7 +54,7 @@ const Content = () => {
                 >
                 <h4 className="md:!text-[20px] !text-[15px] flex gap-4 items-center  md:justify-start justify-center">
                     Hi <img src="/assets/wave.gif" className="w-10 h-10" /> I’m{" "}
-                    <span className="font-semibold md:!text-[20px] !text-[15px]">Darshana Wishwajith</span>
+                    <span className="font-semibold md:!text-[20px] !text-[15px]">Darshana Bandara</span>
                 </h4>
 
                 <TypeWriter />

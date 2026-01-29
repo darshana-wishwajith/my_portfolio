@@ -68,7 +68,7 @@ const Footer = () => {
 
                 {/* Third row - Copywrite Statement */}
                 <div className='px-[100px] py-3'>
-                    <p className='!text-[10px] text-[#BCBCBC]/50 text-center'>Copyright &copy;  2025 | All Rights Reserved | darshanaw.dev</p>
+                    <p className='!text-[10px] text-[#BCBCBC]/50 text-center'>Copyright &copy;  2026 | All Rights Reserved | darshanab.dev</p>
                 </div>
             </footer>
             

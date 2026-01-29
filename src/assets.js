@@ -1,5 +1,4 @@
 //images and icons
-
 import GithubIconDark from './../src/../public/assets/github_icon_dark.png';
 import LinkedinIconDark from './../src/../public/assets/linkedin_icon_dark.png';
 import EmailIconDark from './../src/../public/assets/email_icon_dark.png';
@@ -10,19 +9,17 @@ import EmailIconLight from './../src/../public/assets/email_icon_light.png';
 
 export const socialIconsDark = [
     {id: 1, ico: GithubIconDark, str: 'GitHubDark Icon', link: 'https://github.com/darshana-wishwajith'},
-    {id: 2, ico: LinkedinIconDark, str: 'LinkedInDark Icon', link: 'https://www.linkedin.com/in/darshana-wishwajith'},
+    {id: 2, ico: LinkedinIconDark, str: 'LinkedInDark Icon', link: 'https://linkedin.com/in/darshana-w-bandara'},
     {id: 3, ico: EmailIconDark, str: 'EmailDark Icon', link:'mailto:darshanawishwajith494@gmail.com'},
 ];
 
 export const socialIconsLight = [
     {id: 1, ico: GithubIconLight, str: 'GitHubLight Icon', link: 'https://github.com/darshana-wishwajith'},
-    {id: 2, ico: LinkedinIconLight, str: 'LinkedInLight Icon', link: 'https://www.linkedin.com/in/darshana-wishwajith'},
+    {id: 2, ico: LinkedinIconLight, str: 'LinkedInLight Icon', link: 'https://linkedin.com/in/darshana-w-bandara'},
     {id: 3, ico: EmailIconLight, str: 'EmailLight Icon', link:'mailto:darshanawishwajith494@gmail.com'},
 ];
 
-
 //Footer Groups
-
 export const footerGroups = [
     {
         title: 'Home',
